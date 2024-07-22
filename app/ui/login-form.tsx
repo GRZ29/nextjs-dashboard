@@ -22,6 +22,7 @@ export default function LoginForm() {
       <div className="flex-1 rounded-lg bg-gray-50 px-6 pb-4 pt-8">
         <h1 className={`${lusitana.className} mb-3 text-2xl`}>
           Please log in to continue.
+          <div style={{height:"50px",fontSize:"15px"}}>email: user@nextmail.com, password: 123456</div>
         </h1>
         <div className="w-full">
           <div>
@@ -79,7 +80,7 @@ export default function LoginForm() {
             </>
           )}
         </div>
-      </div>
-    </form>
+      </div >
+    </form >
   );
 }
